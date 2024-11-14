@@ -11,7 +11,8 @@ fieldset {
     border-radius: 5px;
     padding: 20px;
     height: 75%;
-    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
     width: 50%;
     background-color: #fff;
     position: relative;
@@ -23,7 +24,7 @@ legend {
     font-weight: bold;
     padding: 0 10px;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 50px;
     text-transform: lowercase;
     background-color: white;
     border: 1px solid rgb(61, 61, 61);
