@@ -7,8 +7,6 @@ body {
 }
 
 fieldset {
-    display:flex;
-    justify-content: center;
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -38,6 +36,7 @@ div {
 
 .row {
     display:flex;
+    justify-content: space-around;
 }
 
 label {
