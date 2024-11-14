@@ -7,6 +7,8 @@ body {
 }
 
 fieldset {
+    display:flex;
+    justify-content: center;
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -32,6 +34,10 @@ legend {
 
 div {
     margin-bottom: 15px;
+}
+
+.row {
+    display:flex;
 }
 
 label {
