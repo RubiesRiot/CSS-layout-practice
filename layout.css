@@ -9,9 +9,8 @@ body {
 fieldset {
     border: 2px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 25% 20px 25%;
     height: 75%;
-    padding-top: 20px;
     margin: auto;
     width: 50%;
     background-color: #fff;
@@ -36,7 +35,7 @@ div {
 
 .row {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 label {
@@ -50,7 +49,6 @@ input[type="email"],
 input[type="date"],
 textarea,
 select {
-    width: 50%;
     padding: 10px;
     border: 1px solid rgb(61, 61, 61);
     align: center;
@@ -68,15 +66,16 @@ input[type="checkbox"] {
 
 button {
     background-color: #ffffff;
-    color: white;
+    color: rgb(61, 61, 61);
     border: 1px solid rgb(61, 61, 61);
     padding: 10px 15px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: rgb(61, 61, 61);
-    color: white; 
+    color: white;
 }
 
 /* Optional: Add some responsiveness */
